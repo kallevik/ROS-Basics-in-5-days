@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="my_action_server_example_pkg" 
+        type="ardrone_action_server.py" 
+        name="move_drone_square" 
+        output="screen" />
+</launch>
